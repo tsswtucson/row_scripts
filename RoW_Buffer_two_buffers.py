@@ -33,6 +33,7 @@ def ReorderFields(table, out_table, field_order, add_missing = True):
     -> path to output table
     """
     existing_fields = arcpy.ListFields(table)
+    existing_field_names = [field.name for field in existing_fields]
 
     existing_mapping = arcpy.FieldMappings()
     existing_mapping.addTable(table)

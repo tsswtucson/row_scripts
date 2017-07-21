@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+# This script requires a third-party library called natsort.
 # A folder called natsort should have been included with the script
 # and should be placed in the same folder as this .py file.
 
